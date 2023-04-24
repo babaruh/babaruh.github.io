@@ -1,0 +1,16 @@
+.container {
+  padding: 20px;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: calc(33.33% - 20px);
+  height: 50px;
+  margin: 10px;
+  background-color: #333;
+}
+.box:nth-child(2n) {
+  background-color: #666;
+}/*# sourceMappingURL=preprocessor.css.map */

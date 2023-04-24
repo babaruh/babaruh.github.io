@@ -1,0 +1,20 @@
+$box-size: 50px;
+$box-margin: 10px;
+$container-padding: 20px;
+
+.container {
+  padding: $container-padding;
+  background-color: #f2f2f2;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: calc(33.33% - #{$box-margin * 2});
+  height: $box-size;
+  margin: $box-margin;
+  background-color: #333;
+  &:nth-child(2n) {
+    background-color: #666;
+  }
+}
